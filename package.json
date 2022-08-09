@@ -12,20 +12,26 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"prisma-db-push": "prisma db push",
-		"prisma-studio": "npx prisma studio"
+		"prisma-studio": "npx prisma studio",
+		"generate": "houdini generate -p"
 	},
 	"devDependencies": {
+		"@kitql/vite-plugin-watch-and-run": "^0.4.2",
 		"@playwright/test": "^1.24.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "^1.0.0-next.405",
 		"@types/cookie": "^0.5.1",
-		"@typescript-eslint/eslint-plugin": "^5.32.0",
-		"@typescript-eslint/parser": "^5.32.0",
+		"@types/uuid": "^8.3.4",
+		"@typescript-eslint/eslint-plugin": "^5.33.0",
+		"@typescript-eslint/parser": "^5.33.0",
 		"autoprefixer": "^10.4.8",
 		"cssnano": "^5.1.12",
 		"eslint": "^8.21.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"graphql": "16.5.0",
+		"graphql-tag": "2.12.6",
+		"houdini": "^0.15.8",
 		"postcss": "^8.4.16",
 		"postcss-flexbugs-fixes": "^5.0.2",
 		"postcss-import": "^14.1.0",
@@ -53,6 +59,7 @@
 		"cookie": "^0.5.0",
 		"dotenv": "^16.0.1",
 		"jsonwebtoken": "^8.5.1",
+		"uuid": "^8.3.2",
 		"validator": "^13.7.0"
 	}
 }
