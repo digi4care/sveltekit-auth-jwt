@@ -30,3 +30,7 @@ export interface ISveltekitEnvironmentConfig extends IEnvironmentConfig {
 	cookieConfig: Partial<ICookieConfig>;
 	graphQlConfig: Partial<IGraphQlConfig>;
 }
+
+export interface handleLogin {
+	(authToken: string, refreshToken: string, sessionToken: string): Promise<void>;
+}
