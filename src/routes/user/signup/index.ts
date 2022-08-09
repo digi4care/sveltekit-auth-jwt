@@ -5,7 +5,7 @@ import * as cookie from 'cookie';
 import _config from '../../../config';
 
 import { handleErrors } from '$lib/utils/handle_error';
-import { db } from '$lib/utils/database';
+import { db } from '$lib/utils/prisma/database';
 import { createRefreshToken } from '$lib/utils/jwt';
 import { logger } from '$lib/utils/logger';
 

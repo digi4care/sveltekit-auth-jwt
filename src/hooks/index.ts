@@ -4,7 +4,7 @@ const { verify } = pkg;
 
 import _config from '../config';
 import { createAccessToken } from '$lib/utils/jwt';
-import { db } from '$lib/utils/database';
+import { db } from '$lib/utils/prisma/database';
 import { logger } from '$lib/utils/logger';
 
 import type { GetSession, Handle, HandleError } from '@sveltejs/kit';

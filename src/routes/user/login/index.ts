@@ -4,7 +4,7 @@ import * as cookie from 'cookie';
 import validator from 'validator';
 import _config from '../../../config';
 import { createAccessToken, createRefreshToken } from '$lib/utils/jwt';
-import { db } from '$lib/utils/database';
+import { db } from '$lib/utils/prisma/database';
 import { logger } from '$lib/utils/logger';
 
 export const POST: RequestHandler = async ({ request }) => {
