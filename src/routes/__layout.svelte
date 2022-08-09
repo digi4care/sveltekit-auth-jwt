@@ -2,8 +2,8 @@
 	import { session } from '$app/stores';
 
 	// Loading styles
-	import '$styles/app.css';
-    
+	import '~/styles/app.css';
+
 	// Loading components
 	import Layout from '../components/Layout.svelte';
 	import Header from '../components/Layout/Header.svelte';
