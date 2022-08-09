@@ -6,4 +6,7 @@ node_modules
 .env
 .env.*
 !.env.example
+# Custom stuff
+$houdini
+schema/schema.graphql
 prisma/db/dev.db
